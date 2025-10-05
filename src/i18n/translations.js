@@ -298,6 +298,27 @@ export const translations = {
             { value: "1.6s", label: "tranzaksiya vaqti" },
           ],
         },
+        {
+          title: "Hospital Nexus",
+          sector: "Hospital",
+          timeline: "20 haftada",
+          description:
+            "Modularga asoslangan klinika boshqaruvi, EHR integratsiyasi va real vaqt quvvat monitoringi.",
+          image: "https://images.unsplash.com/photo-1504439468489-c8920d796a29?auto=format&fit=crop&w=1600&q=80",
+          results: [
+            { value: "98%", label: "bemor qoniqishi" },
+            { value: "5x", label: "raqamli qabul kanallari" },
+            { value: "HIPAA", label: "moslik darajasi" },
+          ],
+          extra: {
+            heading: "Asosiy modullar",
+            items: [
+              "EHR tizimlari bilan to'liq integratsiya",
+              "AI asosidagi navbat prognozi",
+              "Regulyator hisobotlarini avtomatlashtirish",
+            ],
+          },
+        },
       ],
       cta: {
         label: "Keyingi bosqich",
@@ -676,6 +697,27 @@ export const translations = {
             { value: "18%", label: "conversion uplift" },
             { value: "1.6s", label: "transaction latency" },
           ],
+        },
+        {
+          title: "Hospital Nexus",
+          sector: "Hospital",
+          timeline: "20 weeks",
+          description:
+            "Modular hospital operations platform with EHR integration and real-time capacity monitoring.",
+          image: "https://images.unsplash.com/photo-1504439468489-c8920d796a29?auto=format&fit=crop&w=1600&q=80",
+          results: [
+            { value: "98%", label: "patient satisfaction" },
+            { value: "5x", label: "digital intake capacity" },
+            { value: "HIPAA", label: "compliance readiness" },
+          ],
+          extra: {
+            heading: "Core capabilities",
+            items: [
+              "Unified scheduling across departments",
+              "AI-driven bed and staffing forecasts",
+              "Automated regulatory reporting",
+            ],
+          },
         },
       ],
       cta: {
@@ -1056,6 +1098,27 @@ export const translations = {
             { value: "1.6с", label: "скорость транзакций" },
           ],
         },
+        {
+          title: "Hospital Nexus",
+          sector: "Healthcare",
+          timeline: "20 недель",
+          description:
+            "Модульная платформа управления клиникой с EHR-интеграцией и мониторингом загрузки в реальном времени.",
+          image: "https://images.unsplash.com/photo-1504439468489-c8920d796a29?auto=format&fit=crop&w=1600&q=80",
+          results: [
+            { value: "98%", label: "удовлетворенность пациентов" },
+            { value: "5x", label: "цифровые каналы приема" },
+            { value: "HIPAA", label: "уровень соответствия" },
+          ],
+          extra: {
+            heading: "Ключевые модули",
+            items: [
+              "Единое расписание отделений",
+              "AI-прогнозирование коек и персонала",
+              "Автоматизация регуляторной отчетности",
+            ],
+          },
+        },
       ],
       cta: {
         label: "Следующий шаг",
@@ -1155,7 +1218,3 @@ export const translations = {
     },
   },
 };
-
-
-
-
