@@ -1,18 +1,35 @@
-﻿import Reveal from "./Reveal";
+import hamarHadiyaImage from "../assets/hamar_hadiya.jpg";
+import jasurShopImage from "../assets/jasur_shop.jpg";
+import Reveal from "./Reveal";
 
 export default function Portfolio({ copy = {} }) {
   const projects = copy.projects ?? [];
   const [firstProject, ...otherProjects] = projects;
   const secondaryProjects = otherProjects.slice(0, 2);
   const extendedProjects = otherProjects.slice(2);
+  const resolveImage = (imagePath) => {
+    if (typeof imagePath === "string") {
+      if (imagePath.includes("hamar_hadiya")) {
+        return hamarHadiyaImage;
+      }
+      if (imagePath.includes("jasur_shop")) {
+        return jasurShopImage;
+      }
+    }
+    return imagePath;
+  };
   const getImageClasses = (imagePath, baseHeightClass) => {
     const isHamar = typeof imagePath === "string" && imagePath.includes("hamar_hadiya");
     const isJasur = typeof imagePath === "string" && imagePath.includes("jasur_shop");
+    const isDictionary = typeof imagePath === "string" && imagePath.includes("photo-1517430816045");
     if (isHamar) {
-      return "w-full max-h-[320px] object-contain bg-white/95 p-2 md:p-3 dark:bg-white/10";
+      return "w-full max-h-[300px] object-contain bg-white/95 p-2 md:p-3 dark:bg-white/10";
     }
     if (isJasur) {
       return `${baseHeightClass} w-full object-contain bg-white/90 p-4 dark:bg-white/10`;
+    }
+    if (isDictionary) {
+      return `${baseHeightClass} w-full object-cover`;
     }
     return `${baseHeightClass} w-full object-cover`;
   };
@@ -48,7 +65,7 @@ export default function Portfolio({ copy = {} }) {
               <div className="absolute inset-0 bg-gradient-to-br from-brand-500/15 via-transparent to-brand-700/15 opacity-0 transition duration-700 group-hover:opacity-100" aria-hidden />
               <div className="relative h-full">
                 <img
-                  src={firstProject.image}
+                  src={resolveImage(firstProject.image)}
                   alt={firstProject.title}
                   className={getImageClasses(firstProject.image, "h-80")}
                   style={getImageStyle(firstProject.image)}
@@ -112,7 +129,7 @@ export default function Portfolio({ copy = {} }) {
                 className="group overflow-hidden rounded-[32px] border border-zinc-200 bg-white shadow-sm shadow-zinc-200/60 transition dark:border-white/10 dark:bg-white/[0.05]"
               >
                 <img
-                  src={project.image}
+                  src={resolveImage(project.image)}
                   alt={project.title}
                   className={getImageClasses(project.image, "h-52")}
                   style={getImageStyle(project.image)}
@@ -172,7 +189,7 @@ export default function Portfolio({ copy = {} }) {
             >
               <div className="grid gap-0 md:grid-cols-[1.2fr_0.8fr] md:items-center">
                 <img
-                  src={project.image}
+                  src={resolveImage(project.image)}
                   alt={project.title}
                   className={getImageClasses(project.image, "h-72")}
                   style={getImageStyle(project.image)}
@@ -258,3 +275,8 @@ export default function Portfolio({ copy = {} }) {
     </section>
   );
 }
+
+
+
+
+
