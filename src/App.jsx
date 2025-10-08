@@ -4,7 +4,6 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Highlights from "./components/Highlights";
 import Services from "./components/Services";
-import Process from "./components/Process";
 import Portfolio from "./components/Portfolio";
 import Insights from "./components/Insights";
 import CallToAction from "./components/CallToAction";
@@ -33,7 +32,6 @@ function App() {
         <About copy={copy.about} language={language} />
         <Highlights copy={copy.highlights} />
         <Services copy={copy.services} />
-        <Process copy={copy.process} />
         <Portfolio copy={copy.portfolio} />
         <Insights copy={copy.insights} />
         <CallToAction copy={copy.callToAction} />

@@ -5,6 +5,19 @@ export default function Portfolio({ copy = {} }) {
   const [firstProject, ...otherProjects] = projects;
   const secondaryProjects = otherProjects.slice(0, 2);
   const extendedProjects = otherProjects.slice(2);
+  const getImageClasses = (imagePath, baseHeightClass) => {
+    const isHamar = typeof imagePath === "string" && imagePath.includes("hamar_hadiya");
+    const isJasur = typeof imagePath === "string" && imagePath.includes("jasur_shop");
+    if (isHamar) {
+      return "w-full max-h-[320px] object-contain bg-white/95 p-2 md:p-3 dark:bg-white/10";
+    }
+    if (isJasur) {
+      return `${baseHeightClass} w-full object-contain bg-white/90 p-4 dark:bg-white/10`;
+    }
+    return `${baseHeightClass} w-full object-cover`;
+  };
+
+  const getImageStyle = () => undefined;
 
   return (
     <section
@@ -37,7 +50,8 @@ export default function Portfolio({ copy = {} }) {
                 <img
                   src={firstProject.image}
                   alt={firstProject.title}
-                  className="h-80 w-full object-cover"
+                  className={getImageClasses(firstProject.image, "h-80")}
+                  style={getImageStyle(firstProject.image)}
                   loading="lazy"
                 />
                 <div className="grid gap-4 px-8 py-8">
@@ -100,7 +114,8 @@ export default function Portfolio({ copy = {} }) {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="h-52 w-full object-cover"
+                  className={getImageClasses(project.image, "h-52")}
+                  style={getImageStyle(project.image)}
                   loading="lazy"
                 />
                 <div className="space-y-3 px-6 py-6">
@@ -159,7 +174,8 @@ export default function Portfolio({ copy = {} }) {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="h-72 w-full object-cover"
+                  className={getImageClasses(project.image, "h-72")}
+                  style={getImageStyle(project.image)}
                   loading="lazy"
                 />
                 <div className="space-y-4 px-6 py-8 md:px-8">

@@ -23,12 +23,12 @@ export const translations = {
       kicker: "Finerox",
       title: "Raqamli kelajakni bugun loyihalash",
       subtitle:
-        "2025 yilda tashkil topgan Finerox biznesingizni xavfsiz, moslashuvchan va yuqori samarali IT ekotizimlari bilan tezlashtiradi.",
+        "Finerox - IT Kompaniyasi 2023 yil 15 iyulda tashkil topgan bo‘lib, biznesingizni xavfsiz, moslashuvchan va yuqori samarali IT ekotizimlari bilan tezlashtiradi.",
       ctaPrimary: "Biz bilan bog‘laning",
       ctaSecondary: "Xizmatlarimiz",
       stats: [
-        { value: "2025 yilda", label: "tashkil topgan" },
-        { value: "10 ga yaqin", label: "tajribali muhandislar" },
+        { value: "15-iyul 2023", label: "tashkil topgan" },
+        { value: "15+", label: "tajribali muhandislar" },
         { value: "Bir nechta", label: "global hamkorlar" },
       ],
       card: {
@@ -37,7 +37,7 @@ export const translations = {
         description:
           "Kross-funksional skuadlar strategiya, dizayn va muhandislikni uyg‘unlashtirib, haftalar ichida o‘lchanadigan natija yaratadi.",
         tech: "Azure • AWS • Kubernetes",
-        year: "2025",
+        year: "2023",
       },
       highlights: {
         top: {
@@ -60,7 +60,7 @@ export const translations = {
       mission: "Strategiya × Texnologiya × Hamkorlik",
       title: "Biz haqimizda",
       description:
-        "2025 yilda tashkil etilgan Finerox innovatsion yechimlar ishlab chiqib, kompaniyalarga raqamli transformatsiyada yordam beruvchi IT hamkor. Biz AI, bulut texnologiyalari va kiberxavfsizlik bo‘yicha chuqur ekspertizaga egamiz.",
+        "2023 yil 15 iyulda tashkil etilgan Finerox innovatsion yechimlar ishlab chiqib, kompaniyalarga raqamli transformatsiyada yordam beruvchi IT hamkor. Biz AI, bulut texnologiyalari va kiberxavfsizlik bo‘yicha chuqur ekspertizaga egamiz.",
       pillars: [
         {
           title: "Strategik yondashuv",
@@ -79,7 +79,7 @@ export const translations = {
         },
       ],
       metrics: [
-        { value: "10 ga yaqin", label: "tajribali muhandislar" },
+        { value: "15+", label: "tajribali muhandislar" },
         { value: "Bir nechta", label: "global delivery markazlari" },
         { value: "98%", label: "mijozlar qoniqishi" },
       ],
@@ -89,15 +89,15 @@ export const translations = {
         title: "Evolyutsiyamiz",
         stages: [
           {
-            period: "2025 • Yoz",
+            period: "2023 ",
             description: "Finerox muhandislar va dizaynerlardan iborat yadro jamoasi bilan o‘z faoliyatini boshladi.",
           },
           {
-            period: "2025 • Kuz",
+            period: "2024",
             description: "GenAI va bulut infratuzilmasi bo‘yicha dastlabki loyihalar muvaffaqiyatli yakunlandi.",
           },
           {
-            period: "2026 • Oldinga",
+            period: "2025",
             description: "Jamoamiz kengaymoqda, yangi hamkorliklar esa mahsulot va platformalar portfelini boyitmoqda.",
           },
         ],
@@ -271,7 +271,7 @@ export const translations = {
           timeline: "3 haftada",
           description:
             "Umra va haj sovg'alarini onlayn tanlash va buyurtma qilish uchun responsive veb platforma.",
-          image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=80",
+          image: "/src/assets/hamar_hadiya.jpg",
           results: [
             { value: "40+", label: "sovg'a toifalari" },
             { value: "99.9%", label: "uptime" },
@@ -285,7 +285,7 @@ export const translations = {
           timeline: "4 haftada",
           description:
             "Savdo, buyurtma va yetkazib berish jarayonlarini avtomatlashtirgan ko'p tilli Telegram bot.",
-          image: "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1600&q=80",
+          image: "/src/assets/jasur_shop.jpg",
           results: [
             { value: "24/7", label: "savdo qo'llab-quvvatlash" },
             { value: "3x", label: "tezkor buyurtmalar" },
@@ -422,12 +422,12 @@ export const translations = {
       kicker: "Finerox",
       title: "Designing the digital future today",
       subtitle:
-        "Founded in 2025, Finerox accelerates your business with secure, resilient, and high-performance technology ecosystems tailored to your vision.",
+        "Finerox is an IT company founded on July 15, 2023, that accelerates your business with secure, flexible, and high-performance IT ecosystems.",
       ctaPrimary: "Talk to us",
       ctaSecondary: "View services",
       stats: [
-        { value: "2025", label: "founded" },
-        { value: "About 10", label: "engineering team" },
+        { value: "Jul 15, 2023", label: "founded" },
+        { value: "15+", label: "engineering team" },
         { value: "Growing", label: "global partners" },
       ],
       card: {
@@ -436,7 +436,7 @@ export const translations = {
         description:
           "Cross-functional squads blend strategy, design, and engineering to deliver measurable outcomes in weeks.",
         tech: "Azure • AWS • Kubernetes",
-        year: "2025",
+        year: "2023",
       },
       highlights: {
         top: {
@@ -459,7 +459,7 @@ export const translations = {
       mission: "Strategy × Technology × Partnership",
       title: "About Finerox",
       description:
-        "Founded in 2025, Finerox is your innovation partner, helping enterprises accelerate digital transformation with deep expertise across AI, cloud, and cybersecurity.",
+        "Founded on July 15, 2023, Finerox is your innovation partner, helping enterprises accelerate digital transformation with deep expertise across AI, cloud, and cybersecurity.",
       pillars: [
         {
           title: "Strategic mindset",
@@ -478,7 +478,7 @@ export const translations = {
         },
       ],
       metrics: [
-        { value: "About 10", label: "engineering team" },
+        { value: "15+", label: "engineering team" },
         { value: "Growing", label: "delivery hubs" },
         { value: "98%", label: "client satisfaction" },
       ],
@@ -488,15 +488,15 @@ export const translations = {
         title: "Our evolution",
         stages: [
           {
-            period: "Summer 2025 — Launch",
+            period: "2023",
             description: "Formed by a core group of engineers and designers focused on mission-critical digital products.",
           },
           {
-            period: "Autumn 2025 — Momentum",
+            period: "2024",
             description: "Delivered inaugural GenAI and cloud modernisation programs for regional innovators.",
           },
           {
-            period: "2026 — Looking ahead",
+            period: "2025",
             description: "Scaling the team and partner network to broaden our product and platform portfolio.",
           },
         ],
@@ -670,7 +670,7 @@ export const translations = {
           timeline: "3 weeks",
           description:
             "Responsive catalog experience for selecting Umrah and Hajj gifts with seamless checkout flows.",
-          image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=80",
+          image: "/src/assets/hamar_hadiya.jpg",
           results: [
             { value: "40+", label: "gift categories" },
             { value: "99.9%", label: "uptime" },
@@ -684,7 +684,7 @@ export const translations = {
           timeline: "4 weeks",
           description:
             "Multilingual Telegram assistant that automates sales, order capture, and delivery updates.",
-          image: "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1600&q=80",
+          image: "/src/assets/jasur_shop.jpg",
           results: [
             { value: "24/7", label: "automated support" },
             { value: "3x", label: "faster orders" },
@@ -821,12 +821,12 @@ export const translations = {
       kicker: "Finerox",
       title: "Создаем цифровое будущее уже сегодня",
       subtitle:
-        "Основанная в 2025 года Finerox ускоряет ваш бизнес благодаря безопасным, масштабируемым и высокопроизводительным IT-экосистемам.",
+        "Finerox — IT-компания, основанная 15 июля 2023 года. Мы ускоряем развитие вашего бизнеса с помощью безопасных, гибких и высокоэффективных IT-экосистем.",
       ctaPrimary: "Связаться",
       ctaSecondary: "Наши услуги",
       stats: [
-        { value: "2025 году", label: "основание" },
-        { value: "Около 10", label: "команда инженеров" },
+        { value: "15 июля 2023", label: "основание" },
+        { value: "15+", label: "команда инженеров" },
         { value: "Растущая", label: "международных партнеров" },
       ],
       card: {
@@ -835,7 +835,7 @@ export const translations = {
         description:
           "Кросс-функциональные команды объединяют стратегию, дизайн и инженеринг, чтобы приносить измеримый результат за считанные недели.",
         tech: "Azure • AWS • Kubernetes",
-        year: "2025",
+        year: "2023",
       },
       highlights: {
         top: {
@@ -858,7 +858,7 @@ export const translations = {
       mission: "Стратегия × Технологии × Партнерство",
       title: "О компании",
       description:
-        "Основанная в 2025 года Finerox — инновационный партнер по цифровой трансформации с глубокой экспертизой в AI, облаках и кибербезопасности.",
+        "Основанная 15 июля 2023 года Finerox — инновационный партнер по цифровой трансформации с глубокой экспертизой в AI, облаках и кибербезопасности.",
       pillars: [
         {
           title: "Стратегический подход",
@@ -877,7 +877,7 @@ export const translations = {
         },
       ],
       metrics: [
-        { value: "Около 10", label: "команда инженеров" },
+        { value: "15+", label: "команда инженеров" },
         { value: "Растущая", label: "глобальных хаба" },
         { value: "98%", label: "индекс удовлетворенности" },
       ],
@@ -887,15 +887,15 @@ export const translations = {
         title: "Наш путь",
         stages: [
           {
-            period: "Июль 2025 — Старт",
+            period: "2023",
             description: "Инженеры и дизайнеры объединились, чтобы запускать критически важные цифровые продукты.",
           },
           {
-            period: "Осень 2025 — Импульс",
+            period: "2024",
             description: "Реализовали первые проекты по GenAI и облачным трансформациям для региональных лидеров.",
           },
           {
-            period: "2026 — Вперёд",
+            period: "2025",
             description: "Расширяем команду и сеть партнёров, усиливая продуктовый и платформенный портфель.",
           },
         ],
@@ -1069,7 +1069,7 @@ export const translations = {
           timeline: "3 недели",
           description:
             "Адаптивный каталог для выбора подарков к Умре и Хаджу с удобной корзиной заказов.",
-          image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=80",
+          image: "/src/assets/hamar_hadiya.jpg",
           results: [
             { value: "40+", label: "категорий подарков" },
             { value: "99.9%", label: "время работы" },
@@ -1083,7 +1083,7 @@ export const translations = {
           timeline: "4 недели",
           description:
             "Мультиязычный Telegram-бот, автоматизирующий продажи, оформление заказов и нотификации доставки.",
-          image: "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1600&q=80",
+          image: "/src/assets/jasur_shop.jpg",
           results: [
             { value: "24/7", label: "поддержка продаж" },
             { value: "3x", label: "быстрее обработка заказов" },
