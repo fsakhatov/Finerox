@@ -46,7 +46,21 @@ export default function Portfolio({ copy = {} }) {
                     <span>•</span>
                     <span>{firstProject.timeline}</span>
                   </div>
-                  <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">{firstProject.title}</h3>
+                  {firstProject.link ? (
+                    <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">
+                      <a
+                        href={firstProject.link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-2 underline-offset-4 transition hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500/60"
+                      >
+                        {firstProject.title}
+                        <span aria-hidden className="text-sm">↗</span>
+                      </a>
+                    </h3>
+                  ) : (
+                    <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">{firstProject.title}</h3>
+                  )}
                   <p className="text-sm text-zinc-600 dark:text-white/65">{firstProject.description}</p>
                   {firstProject.results && (
                     <div className="grid gap-3 sm:grid-cols-3">
@@ -91,7 +105,21 @@ export default function Portfolio({ copy = {} }) {
                 />
                 <div className="space-y-3 px-6 py-6">
                   <span className="text-xs uppercase tracking-[0.4em] text-brand-500 dark:text-brand-200/80">{project.sector}</span>
-                  <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">{project.title}</h3>
+                  {project.link ? (
+                    <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-2 underline-offset-4 transition hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500/60"
+                      >
+                        {project.title}
+                        <span aria-hidden className="text-sm">↗</span>
+                      </a>
+                    </h3>
+                  ) : (
+                    <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">{project.title}</h3>
+                  )}
                   <p className="text-sm text-zinc-600 dark:text-white/60">{project.description}</p>
                   {project.results && (
                     <div className="flex flex-wrap gap-3 text-xs text-zinc-500 dark:text-white/50">
@@ -136,7 +164,21 @@ export default function Portfolio({ copy = {} }) {
                 />
                 <div className="space-y-4 px-6 py-8 md:px-8">
                   <span className="text-xs uppercase tracking-[0.4em] text-brand-500 dark:text-brand-200/80">{project.sector}</span>
-                  <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">{project.title}</h3>
+                  {project.link ? (
+                    <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-2 underline-offset-4 transition hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500/60"
+                      >
+                        {project.title}
+                        <span aria-hidden className="text-base">↗</span>
+                      </a>
+                    </h3>
+                  ) : (
+                    <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">{project.title}</h3>
+                  )}
                   <p className="text-sm text-zinc-600 dark:text-white/65">{project.description}</p>
                   {project.results && (
                     <div className="grid gap-3 sm:grid-cols-3">

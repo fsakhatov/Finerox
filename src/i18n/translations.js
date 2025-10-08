@@ -23,13 +23,13 @@ export const translations = {
       kicker: "Finerox",
       title: "Raqamli kelajakni bugun loyihalash",
       subtitle:
-        "Biz Finerox — biznesingizni xavfsiz, moslashuvchan va yuqori samarali IT ekotizimlari bilan tezlashtiramiz.",
+        "2025 yilda tashkil topgan Finerox biznesingizni xavfsiz, moslashuvchan va yuqori samarali IT ekotizimlari bilan tezlashtiradi.",
       ctaPrimary: "Biz bilan bog‘laning",
       ctaSecondary: "Xizmatlarimiz",
       stats: [
-        { value: "10+", label: "yillik tajriba" },
-        { value: "120+", label: "yakunlangan loyihalar" },
-        { value: "40+", label: "global hamkorlar" },
+        { value: "2025 yilda", label: "tashkil topgan" },
+        { value: "10 ga yaqin", label: "tajribali muhandislar" },
+        { value: "Bir nechta", label: "global hamkorlar" },
       ],
       card: {
         badge: "Real vaqt innovatsiya laboratoriyalari",
@@ -60,7 +60,7 @@ export const translations = {
       mission: "Strategiya × Texnologiya × Hamkorlik",
       title: "Biz haqimizda",
       description:
-        "Finerox — innovatsion yechimlar ishlab chiquvchi va kompaniyalarga raqamli transformatsiyada yordam beruvchi IT hamkor. Biz AI, bulut texnologiyalari va kiberxavfsizlik bo‘yicha chuqur ekspertizaga egamiz.",
+        "2025 yilda tashkil etilgan Finerox innovatsion yechimlar ishlab chiqib, kompaniyalarga raqamli transformatsiyada yordam beruvchi IT hamkor. Biz AI, bulut texnologiyalari va kiberxavfsizlik bo‘yicha chuqur ekspertizaga egamiz.",
       pillars: [
         {
           title: "Strategik yondashuv",
@@ -79,8 +79,8 @@ export const translations = {
         },
       ],
       metrics: [
-        { value: "40+", label: "senior muhandislar" },
-        { value: "6", label: "global delivery markazlari" },
+        { value: "10 ga yaqin", label: "tajribali muhandislar" },
+        { value: "Bir nechta", label: "global delivery markazlari" },
         { value: "98%", label: "mijozlar qoniqishi" },
       ],
       signature:
@@ -89,16 +89,16 @@ export const translations = {
         title: "Evolyutsiyamiz",
         stages: [
           {
-            period: "2015 — Startap",
-            description: "Bulutli arxitekturaga ixtisoslashgan jamoa sifatida ishga tushdik.",
+            period: "2025 • Yoz",
+            description: "Finerox muhandislar va dizaynerlardan iborat yadro jamoasi bilan o‘z faoliyatini boshladi.",
           },
           {
-            period: "2018 — Scale",
-            description: "Mikroxizmatlar va DevOps laboratoriyalarini ishga tushirib, fintech hamda medtech portfelini kengaytirdik.",
+            period: "2025 • Kuz",
+            description: "GenAI va bulut infratuzilmasi bo‘yicha dastlabki loyihalar muvaffaqiyatli yakunlandi.",
           },
           {
-            period: "2022 — Global",
-            description: "AI va kiberxavfsizlik bo‘yicha markazlar ochib, xalqaro hamkorlikni kuchaytirdik.",
+            period: "2026 • Oldinga",
+            description: "Jamoamiz kengaymoqda, yangi hamkorliklar esa mahsulot va platformalar portfelini boyitmoqda.",
           },
         ],
       },
@@ -147,52 +147,68 @@ export const translations = {
         "Biznesingizni tezroq o‘sishi uchun to‘liq siklli injiniring, dizayn va operatsion xizmatlarni bir joyda taqdim etamiz.",
       items: [
         {
-          code: "DX-01",
-          title: "Raqamli transformatsiya",
+          code: "WEB-01",
+          title: "Web saytlar",
           description:
-            "Strategik konsultatsiya, biznes jarayonlarini avtomatlashtirish va integratsiya dasturlari.",
-          points: ["Enterprise tizimlar", "Bulut migratsiyasi", "DevOps"],
-          metric: "CIOlar uchun transformatsiya masterplani 6 haftada tayyor.",
+            "Korporativ portal, landing va e-commerce platformalarini yuqori konversiya bilan ishlab chiqamiz.",
+          points: ["Next.js & React", "Headless CMS", "SEO optimizatsiya"],
+          metric: "3x tezroq joriy etilish va CI/CD bilan doimiy yangilanish.",
         },
         {
-          code: "PD-02",
-          title: "Mahsulot injiniringi",
+          code: "TG-02",
+          title: "Telegram bot",
           description:
-            "Veb, mobil va platforma yechimlari, mikroxizmatlar hamda API-ekotizimlari.",
-          points: ["React & Next.js", "Flutter & Swift", "Microfrontend"],
-          metric: "99.98% uptime bilan xizmat ko‘rsatish kafolati.",
+            "Avtomatlashtirilgan savdo, qo`llab-quvvatlash va xizmat ko`rsatish botlarini yaratamiz.",
+          points: ["Dialog oqimlari", "Payment integratsiyasi", "Admin panel"],
+          metric: "2 haftada MVP, oylik 99.9% ishlash kafolati.",
         },
         {
-          code: "AI-03",
-          title: "AI va ma’lumotlar platformalari",
+          code: "MOB-03",
+          title: "Mobil ilovalar",
           description:
-            "ML lifecycle boshqaruvi, MLOps, ma’lumotlar omborlari va ilg‘or analitika.",
-          points: ["ML Pipelines", "GenAI", "Data Fabric"],
-          metric: "DataOps avtomatlashtirish orqali 60% tezkor insightlar.",
+            "iOS va Android uchun native hamda cross-platforma ilovalarini to`liq siklda ishlab chiqamiz.",
+          points: ["Flutter & Swift", "Product analytics", "App Store/Play Store qo`llab-quvvatlash"],
+          metric: "Launchdan keyingi 30 kunda 5 yulduz reyting uchun optimizatsiya.",
         },
         {
-          code: "SEC-04",
-          title: "Kiberxavfsizlik va GRC",
+          code: "CRM-04",
+          title: "CRM tizimlari",
           description:
-            "Pen-test, xavf monitoringi, Zero Trust arxitekturasi va compliance boshqaruvi.",
-          points: ["SIEM", "Zero Trust", "Incident Response"],
-          metric: "24 soatda javob berish bilan SOC as a Service.",
+            "Savdo voronkasi, mijozlarni boshqarish va avtomatlashtirilgan jarayonlar uchun moslashuvchan CRMlar.",
+          points: ["Sales pipeline", "Integratsiyalar", "Reporting & dashboard"],
+          metric: "Mijozni jalb qilish samaradorligini 45% gacha oshirish.",
         },
         {
-          code: "CLD-05",
-          title: "Bulut infratuzilmasi",
+          code: "UX-05",
+          title: "UI & UX dizayn",
           description:
-            "Ko‘p bulutli strategiyalar, FinOps boshqaruvi va container platformalar.",
-          points: ["AWS", "Azure", "Kubernetes"],
-          metric: "Bulut xarajatlarini o‘rtacha 32% optimallashtirish.",
+            "Foydalanuvchi ehtiyojlariga mos tadqiqot, customer journey va brendingni kuchaytiruvchi interfeyslar.",
+          points: ["Product discovery", "Design system", "Interaktiv prototiplar"],
+          metric: "Tadqiqotdan relizgacha jarayonni 40% ga qisqartiramiz.",
         },
         {
-          code: "UX-06",
-          title: "Tajriba dizayni",
+          code: "AI-06",
+          title: "Sun'iy intellekt",
           description:
-            "O‘zbekiston va xalqaro bozorlar uchun foydalanuvchi tadqiqotlari va mahsulot dizayni.",
-          points: ["UX Research", "UI Systems", "Design Ops"],
-          metric: "NPS ko‘rsatkichini 2.6 barobar oshirgan tajribalar.",
+            "Ma'lumotlar oqimi, kopilotlar va prediktiv analitika uchun production-ready AI yechimlari.",
+          points: ["ML injiniring", "Copilot tajribalari", "Responsible AI"],
+          metric: "Avtomatlashtirilgan jarayonlar bilan xarajatlarni 30% gacha qisqartiring.",
+        },
+        {
+          code: "SEC-07",
+          title: "Kiber xavfsizlik",
+          description:
+            "Zamonaviy xavfsizlik operatsiyalari, tahdid modellash va compliance ramkalari orqali xavf profilinigizni boshqaring.",
+          points: ["Zero Trust", "Security audit", "24/7 monitoring"],
+          metric: "Incidentlarga javob berish vaqtini 30 daqiqagacha tushiramiz.",
+        },
+        {
+          code: "BR-08",
+          title: "Logo & brending",
+          description:
+            "Brend strategiyasi, vizual identitet va kanallar bo'yicha mos kommunikatsiya bilan imidjingizni kuchaytiramiz.",
+          points: ["Brend strategiya", "Vizual identitet", "Kontent guideline"],
+          metric: "Brend playbook bilan kampaniyalarni 50% tezroq yo'lga qo'ying.",
         },
       ],
       accents: [
@@ -249,75 +265,58 @@ export const translations = {
         "Startaplardan yirik enterprise tashkilotlarigаcha bo‘lgan loyihаlar bilan ta’sirchan natijаlar yaratdik.",
       projects: [
         {
-          title: "SkyLedger",
-          sector: "Fintech",
-          timeline: "12 haftada",
+          title: "hamar-hadiya.uz",
+          link: "https://hamar-hadiya.uz",
+          sector: "Veb-sayt",
+          timeline: "3 haftada",
           description:
-            "Regulyatsiya talablariga mos, real vaqt analitikasi va AI tavsiyalariga ega moliyaviy platforma.",
-          image: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1600&q=80",
+            "Umra va haj sovg'alarini onlayn tanlash va buyurtma qilish uchun responsive veb platforma.",
+          image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=80",
           results: [
-            { value: "3x", label: "operatsion tejamkorlik" },
-            { value: "99.98%", label: "yillik uptime" },
-            { value: "45%", label: "MVP tezlashuvi" },
+            { value: "40+", label: "sovg'a toifalari" },
+            { value: "99.9%", label: "uptime" },
+            { value: "SEO", label: "1-bet reyting" },
           ],
         },
         {
-          title: "Medify",
-          sector: "Healthcare",
-          timeline: "16 haftada",
+          title: "Jasur_shopuz_bot",
+          link: "https://t.me/Jasur_shopuz_bot",
+          sector: "Telegram bot",
+          timeline: "4 haftada",
           description:
-            "Telemed platformasi, bemor yo‘li analitikasi va HIPAA mos xavfsizlik qavati.",
-          image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80",
+            "Savdo, buyurtma va yetkazib berish jarayonlarini avtomatlashtirgan ko'p tilli Telegram bot.",
+          image: "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1600&q=80",
           results: [
-            { value: "2.4x", label: "foydalanuvchi faolligi" },
-            { value: "34%", label: "qo‘llab-quvvatlash xarajatlari kamayishi" },
+            { value: "24/7", label: "savdo qo'llab-quvvatlash" },
+            { value: "3x", label: "tezkor buyurtmalar" },
           ],
         },
         {
-          title: "LogiCore",
-          sector: "Logistika",
-          timeline: "14 haftada",
+          title: "admin-dashboard-orpin-two-99.vercel.app",
+          link: "https://admin-dashboard-orpin-two-99.vercel.app",
+          sector: "Admin panel tizimi",
+          timeline: "8 haftada",
           description:
-            "IoT bilan integratsiyalangan yuk tashish monitoringi va predictive analitika paneli.",
-          image: "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80",
+            "KPI paneli, real vaqt metrikalar va rollarga asoslangan ruxsatlar bilan boshqaruv markazi.",
+          image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1600&q=80",
           results: [
-            { value: "38%", label: "kechikishlar qisqarishi" },
-            { value: "4x", label: "ko‘rinuvchanlik" },
+            { value: "12", label: "asosiy ko'rsatkichlar" },
+            { value: "Role-based", label: "xavfsizlik" },
+            { value: "Realtime", label: "monitoring" },
           ],
         },
         {
-          title: "OrbitPay",
-          sector: "Retail",
-          timeline: "10 haftada",
+          title: "dictionary-web-app-react-nine.vercel.app",
+          link: "https://dictionary-web-app-react-nine.vercel.app",
+          sector: "Inglizcha tarjima tizimi",
+          timeline: "5 haftada",
           description:
-            "Omnichannel to‘lov tizimi ва real vaqt anti-fraud motorlari bilan transaksiyalarని boshqarish.",
-          image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80",
+            "Foydalanuvchilar uchun so'z boyligini oshiradigan inglizcha tarjimalar va audio talaffuzlar ilovasi.",
+          image: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=1600&q=80",
           results: [
-            { value: "72%", label: "fraud kamayishi" },
-            { value: "18%", label: "konversiya o‘sishi" },
-            { value: "1.6s", label: "tranzaksiya vaqti" },
+            { value: "10k+", label: "lug'at birliklari" },
+            { value: "Audio", label: "talaffuz qo'llab-quvvatlash" },
           ],
-        },
-        {
-          title: "Hospital Nexus",
-          sector: "Hospital",
-          timeline: "20 haftada",
-          description:
-            "Modularga asoslangan klinika boshqaruvi, EHR integratsiyasi va real vaqt quvvat monitoringi.",
-          image: "https://images.unsplash.com/photo-1504439468489-c8920d796a29?auto=format&fit=crop&w=1600&q=80",
-          results: [
-            { value: "98%", label: "bemor qoniqishi" },
-            { value: "5x", label: "raqamli qabul kanallari" },
-            { value: "HIPAA", label: "moslik darajasi" },
-          ],
-          extra: {
-            heading: "Asosiy modullar",
-            items: [
-              "EHR tizimlari bilan to'liq integratsiya",
-              "AI asosidagi navbat prognozi",
-              "Regulyator hisobotlarini avtomatlashtirish",
-            ],
-          },
         },
       ],
       cta: {
@@ -381,19 +380,19 @@ export const translations = {
         phone: "Telefon",
         email: "Email",
       },
-      office: "Toshkent, Yunusobod tumani, Yangi O‘zbekiston ko‘chasi 45",
-      phone: "+998 97 123 45 67",
-      email: "hello@finerox.com",
+      office: "Uzbekistan, Kashkadarya region, Karshi, I Karimov 239",
+      phone: "+998(88)118-05-07",
+      email: "fineroxuz@gmail.com",
       channels: [
         {
           title: "Hamkorlik chiplari",
           description: "Startap va enterprise uchun moslashuvchan joriy etish paketlari.",
-          value: "project@finerox.com",
+          value: "fineroxuz@gmail.com",
         },
         {
           title: "Karyera imkoniyatlari",
           description: "Finerox jamoasiga qo‘shilishni istaysizmi?",
-          value: "talents@finerox.com",
+          value: "fineroxuz@gmail.com",
         },
       ],
       form: {
@@ -423,13 +422,13 @@ export const translations = {
       kicker: "Finerox",
       title: "Designing the digital future today",
       subtitle:
-        "We accelerate your business with secure, resilient, and high-performance technology ecosystems tailored to your vision.",
+        "Founded in 2025, Finerox accelerates your business with secure, resilient, and high-performance technology ecosystems tailored to your vision.",
       ctaPrimary: "Talk to us",
       ctaSecondary: "View services",
       stats: [
-        { value: "10+", label: "years of excellence" },
-        { value: "120+", label: "projects delivered" },
-        { value: "40+", label: "global partners" },
+        { value: "2025", label: "founded" },
+        { value: "About 10", label: "engineering team" },
+        { value: "Growing", label: "global partners" },
       ],
       card: {
         badge: "Realtime innovation labs",
@@ -460,7 +459,7 @@ export const translations = {
       mission: "Strategy × Technology × Partnership",
       title: "About Finerox",
       description:
-        "Finerox is your innovation partner, helping enterprises accelerate digital transformation with deep expertise across AI, cloud, and cybersecurity.",
+        "Founded in 2025, Finerox is your innovation partner, helping enterprises accelerate digital transformation with deep expertise across AI, cloud, and cybersecurity.",
       pillars: [
         {
           title: "Strategic mindset",
@@ -479,8 +478,8 @@ export const translations = {
         },
       ],
       metrics: [
-        { value: "40+", label: "senior engineers" },
-        { value: "6", label: "delivery hubs" },
+        { value: "About 10", label: "engineering team" },
+        { value: "Growing", label: "delivery hubs" },
         { value: "98%", label: "client satisfaction" },
       ],
       signature:
@@ -489,16 +488,16 @@ export const translations = {
         title: "Our evolution",
         stages: [
           {
-            period: "2015 — Launch",
-            description: "Started as a boutique cloud architecture studio focused on regulated industries.",
+            period: "Summer 2025 — Launch",
+            description: "Formed by a core group of engineers and designers focused on mission-critical digital products.",
           },
           {
-            period: "2018 — Scale",
-            description: "Expanded into microservices, DevOps, and data engineering for fintech and healthtech leaders.",
+            period: "Autumn 2025 — Momentum",
+            description: "Delivered inaugural GenAI and cloud modernisation programs for regional innovators.",
           },
           {
-            period: "2022 — Global",
-            description: "Opened AI and cybersecurity centers of excellence to support worldwide growth.",
+            period: "2026 — Looking ahead",
+            description: "Scaling the team and partner network to broaden our product and platform portfolio.",
           },
         ],
       },
@@ -547,52 +546,68 @@ export const translations = {
         "End-to-end engineering, design, and operations capabilities orchestrated to accelerate your product roadmap.",
       items: [
         {
-          code: "DX-01",
-          title: "Digital transformation",
+          code: "WEB-01",
+          title: "Websites",
           description:
-            "Strategic consulting, process automation, and enterprise integration programs.",
-          points: ["Enterprise platforms", "Cloud migration", "DevOps"],
-          metric: "Transformation masterplan delivered in as little as 6 weeks.",
+            "We craft corporate portals, landing pages, and e-commerce storefronts with conversion-first UX.",
+          points: ["Next.js & React", "Headless CMS", "SEO optimization"],
+          metric: "Launch 3x faster with automated CI/CD release flows.",
         },
         {
-          code: "PD-02",
-          title: "Product engineering",
+          code: "TG-02",
+          title: "Telegram bots",
           description:
-            "Web, mobile, and platform solutions powered by microservices and API-first ecosystems.",
-          points: ["React & Next.js", "Flutter & Swift", "Microfrontend"],
-          metric: "99.98% uptime backed by SRE-grade operations.",
+            "Automation-first bot experiences for sales, support, and service channels.",
+          points: ["Conversation flows", "Payments & billing", "Admin dashboards"],
+          metric: "Ship an MVP in 2 weeks with 99.9% uptime.",
         },
         {
-          code: "AI-03",
-          title: "AI & data platforms",
+          code: "MOB-03",
+          title: "Mobile apps",
           description:
-            "ML lifecycle design, MLOps automation, modern data warehouses, and advanced analytics.",
-          points: ["ML Pipelines", "GenAI", "Data Fabric"],
-          metric: "60% faster insights via automated DataOps.",
+            "Native and cross-platform products for iOS and Android across the full delivery lifecycle.",
+          points: ["Flutter & Swift", "Product analytics", "App Store / Play launch"],
+          metric: "Optimized for 5-star marketplace ratings within 30 days.",
         },
         {
-          code: "SEC-04",
-          title: "Cybersecurity & GRC",
+          code: "CRM-04",
+          title: "CRM systems",
           description:
-            "Penetration testing, threat monitoring, Zero Trust architecture, and compliance governance.",
-          points: ["SIEM", "Zero Trust", "Incident Response"],
-          metric: "SOC-as-a-Service with 24-hour response windows.",
+            "Customizable CRM platforms aligning pipelines, customer care, and automation.",
+          points: ["Sales pipeline", "Systems integrations", "Reporting dashboards"],
+          metric: "Lift conversion efficiency by up to 45%.",
         },
         {
-          code: "CLD-05",
-          title: "Cloud infrastructure",
+          code: "UX-05",
+          title: "UI & UX Design",
           description:
-            "Multi-cloud strategy, FinOps optimization, and container platform engineering.",
-          points: ["AWS", "Azure", "Kubernetes"],
-          metric: "Average 32% spend optimization across cloud estates.",
+            "Human-centered discovery, journey mapping, and pixel-perfect interfaces that amplify your brand.",
+          points: ["Product discovery", "Design systems", "Interactive prototypes"],
+          metric: "Cut research-to-release cycles by 40% with embedded design teams.",
         },
         {
-          code: "UX-06",
-          title: "Experience design",
+          code: "AI-06",
+          title: "Artificial Intelligence",
           description:
-            "User research, product design, and design operations aligned to global audiences.",
-          points: ["UX Research", "UI Systems", "Design Ops"],
-          metric: "2.6× uplift in NPS across launched initiatives.",
+            "Production-ready AI solutions spanning data pipelines, copilots, and predictive analytics.",
+          points: ["ML engineering", "Copilot experiences", "Responsible AI"],
+          metric: "Achieve up to 30% cost savings with automation-first workflows.",
+        },
+        {
+          code: "SEC-07",
+          title: "Cybersecurity",
+          description:
+            "Modern security operations, threat modeling, and compliance frameworks tailored to your risk profile.",
+          points: ["Zero Trust", "Security audits", "24/7 monitoring"],
+          metric: "Reduce incident response times to under 30 minutes.",
+        },
+        {
+          code: "BR-08",
+          title: "Logo & Branding",
+          description:
+            "Brand strategy, visual identity, and messaging systems that resonate across every channel.",
+          points: ["Brand strategy", "Visual identity", "Content guidelines"],
+          metric: "Launch cohesive campaigns 50% faster with actionable brand playbooks.",
         },
       ],
       accents: [
@@ -649,75 +664,58 @@ export const translations = {
         "From venture-backed scaleups to global enterprises, we co-create solutions that move industries forward.",
       projects: [
         {
-          title: "SkyLedger",
-          sector: "Fintech",
-          timeline: "12 weeks",
+          title: "hamar-hadiya.uz",
+          link: "https://hamar-hadiya.uz",
+          sector: "Website",
+          timeline: "3 weeks",
           description:
-            "Regulation-ready finance platform with real-time analytics and AI-driven recommendations.",
-          image: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1600&q=80",
+            "Responsive catalog experience for selecting Umrah and Hajj gifts with seamless checkout flows.",
+          image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=80",
           results: [
-            { value: "3x", label: "operational efficiency" },
-            { value: "99.98%", label: "annual uptime" },
-            { value: "45%", label: "faster MVP launch" },
+            { value: "40+", label: "gift categories" },
+            { value: "99.9%", label: "uptime" },
+            { value: "SEO", label: "page-one ranking" },
           ],
         },
         {
-          title: "Medify",
-          sector: "Healthcare",
-          timeline: "16 weeks",
+          title: "Jasur_shopuz_bot",
+          link: "https://t.me/Jasur_shopuz_bot",
+          sector: "Telegram bot",
+          timeline: "4 weeks",
           description:
-            "Telehealth suite with patient journey analytics and HIPAA-grade security overlays.",
-          image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80",
+            "Multilingual Telegram assistant that automates sales, order capture, and delivery updates.",
+          image: "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1600&q=80",
           results: [
-            { value: "2.4x", label: "user engagement" },
-            { value: "34%", label: "support cost reduction" },
+            { value: "24/7", label: "automated support" },
+            { value: "3x", label: "faster orders" },
           ],
         },
         {
-          title: "LogiCore",
-          sector: "Logistics",
-          timeline: "14 weeks",
+          title: "admin-dashboard-orpin-two-99.vercel.app",
+          link: "https://admin-dashboard-orpin-two-99.vercel.app",
+          sector: "Admin panel system",
+          timeline: "8 weeks",
           description:
-            "IoT-enabled supply chain visibility platform with predictive analytics dashboards.",
-          image: "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80",
+            "Operations console with live KPIs, granular permissions, and predictive health indicators.",
+          image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1600&q=80",
           results: [
-            { value: "38%", label: "delay reduction" },
-            { value: "4x", label: "network visibility" },
+            { value: "12", label: "core metrics" },
+            { value: "Role-based", label: "access" },
+            { value: "Realtime", label: "monitoring" },
           ],
         },
         {
-          title: "OrbitPay",
-          sector: "Retail",
-          timeline: "10 weeks",
+          title: "dictionary-web-app-react-nine.vercel.app",
+          link: "https://dictionary-web-app-react-nine.vercel.app",
+          sector: "English translation app",
+          timeline: "5 weeks",
           description:
-            "Omnichannel payment orchestration with real-time anti-fraud engines.",
-          image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80",
+            "Vocabulary companion delivering English translations, usage examples, and audio pronunciation.",
+          image: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=1600&q=80",
           results: [
-            { value: "72%", label: "fraud reduction" },
-            { value: "18%", label: "conversion uplift" },
-            { value: "1.6s", label: "transaction latency" },
+            { value: "10k+", label: "dictionary entries" },
+            { value: "Audio", label: "pronunciation support" },
           ],
-        },
-        {
-          title: "Hospital Nexus",
-          sector: "Hospital",
-          timeline: "20 weeks",
-          description:
-            "Modular hospital operations platform with EHR integration and real-time capacity monitoring.",
-          image: "https://images.unsplash.com/photo-1504439468489-c8920d796a29?auto=format&fit=crop&w=1600&q=80",
-          results: [
-            { value: "98%", label: "patient satisfaction" },
-            { value: "5x", label: "digital intake capacity" },
-            { value: "HIPAA", label: "compliance readiness" },
-          ],
-          extra: {
-            heading: "Core capabilities",
-            items: [
-              "Unified scheduling across departments",
-              "AI-driven bed and staffing forecasts",
-              "Automated regulatory reporting",
-            ],
-          },
         },
       ],
       cta: {
@@ -781,19 +779,19 @@ export const translations = {
         phone: "Phone",
         email: "Email",
       },
-      office: "45 New Uzbekistan Ave, Yunusabad District, Tashkent",
-      phone: "+998 97 123 45 67",
-      email: "hello@finerox.com",
+     office: "Uzbekistan, Kashkadarya region, Karshi, I Karimov 239",
+      phone: "+998(88)118-05-07",
+      email: "fineroxuz@gmail.com",
       channels: [
         {
           title: "Partnerships",
           description: "Flexible engagement models for startups and enterprises alike.",
-          value: "project@finerox.com",
+          value: "fineroxuz@gmail.com",
         },
         {
           title: "Careers",
           description: "Interested in joining the Finerox collective?",
-          value: "talents@finerox.com",
+          value: "fineroxuz@gmail.com",
         },
       ],
       form: {
@@ -823,13 +821,13 @@ export const translations = {
       kicker: "Finerox",
       title: "Создаем цифровое будущее уже сегодня",
       subtitle:
-        "Мы ускоряем ваш бизнес благодаря безопасным, масштабируемым и высокопроизводительным IT-экосистемам.",
+        "Основанная в 2025 года Finerox ускоряет ваш бизнес благодаря безопасным, масштабируемым и высокопроизводительным IT-экосистемам.",
       ctaPrimary: "Связаться",
       ctaSecondary: "Наши услуги",
       stats: [
-        { value: "10+", label: "лет экспертизы" },
-        { value: "120+", label: "реализованных проектов" },
-        { value: "40+", label: "международных партнеров" },
+        { value: "2025 году", label: "основание" },
+        { value: "Около 10", label: "команда инженеров" },
+        { value: "Растущая", label: "международных партнеров" },
       ],
       card: {
         badge: "Лаборатории инноваций в реальном времени",
@@ -860,7 +858,7 @@ export const translations = {
       mission: "Стратегия × Технологии × Партнерство",
       title: "О компании",
       description:
-        "Finerox — инновационный партнер в цифровой трансформации с глубокой экспертизой в AI, облаках и кибербезопасности.",
+        "Основанная в 2025 года Finerox — инновационный партнер по цифровой трансформации с глубокой экспертизой в AI, облаках и кибербезопасности.",
       pillars: [
         {
           title: "Стратегический подход",
@@ -879,8 +877,8 @@ export const translations = {
         },
       ],
       metrics: [
-        { value: "40+", label: "сеньор-инженеров" },
-        { value: "6", label: "глобальных хаба" },
+        { value: "Около 10", label: "команда инженеров" },
+        { value: "Растущая", label: "глобальных хаба" },
         { value: "98%", label: "индекс удовлетворенности" },
       ],
       signature:
@@ -889,16 +887,16 @@ export const translations = {
         title: "Наш путь",
         stages: [
           {
-            period: "2015 — Старт",
-            description: "Запустились как студия облачных архитектур для регулируемых отраслей.",
+            period: "Июль 2025 — Старт",
+            description: "Инженеры и дизайнеры объединились, чтобы запускать критически важные цифровые продукты.",
           },
           {
-            period: "2018 — Рост",
-            description: "Расширили портфель микро-сервисами, DevOps и дата-инженерией для fintech и healthtech.",
+            period: "Осень 2025 — Импульс",
+            description: "Реализовали первые проекты по GenAI и облачным трансформациям для региональных лидеров.",
           },
           {
-            period: "2022 — Глобал",
-            description: "Открыли центры компетенций по AI и безопасности, усилив международное присутствие.",
+            period: "2026 — Вперёд",
+            description: "Расширяем команду и сеть партнёров, усиливая продуктовый и платформенный портфель.",
           },
         ],
       },
@@ -947,52 +945,68 @@ export const translations = {
         "Комплексные сервисы по инжинирингу, дизайну и операционному сопровождению для ускорения ваших продуктов.",
       items: [
         {
-          code: "DX-01",
-          title: "Цифровая трансформация",
+          code: "WEB-01",
+          title: "Веб-сайты",
           description:
-            "Стратегический консалтинг, автоматизация процессов и интеграция корпоративных систем.",
-          points: ["Enterprise-платформы", "Миграция в облако", "DevOps"],
-          metric: "Мастер-план трансформации за 6 недель.",
+            "Создаём корпоративные порталы, лендинги и e-commerce платформы с упором на конверсию.",
+          points: ["Next.js и React", "Headless CMS", "SEO-оптимизация"],
+          metric: "Запускаем решения в 3 раза быстрее благодаря CI/CD-пайплайнам.",
         },
         {
-          code: "PD-02",
-          title: "Продуктовая разработка",
+          code: "TG-02",
+          title: "Telegram-боты",
           description:
-            "Веб, мобильные и платформенные решения на основе микросервисов и API-экосистем.",
-          points: ["React & Next.js", "Flutter & Swift", "Microfrontend"],
-          metric: "99,98% доступности, поддерживаемые SRE-командой.",
+            "Автоматизируем продажи, поддержку и сервис с помощью интеллектуальных ботов под вашу аудиторию.",
+          points: ["Диалоговые сценарии", "Платёжные интеграции", "Админ-панель"],
+          metric: "MVP за 2 недели и 99.9% доступности в продакшене.",
         },
         {
-          code: "AI-03",
-          title: "AI и дата-платформы",
+          code: "MOB-03",
+          title: "Мобильные приложения",
           description:
-            "Проектирование ML-циклов, автоматизация MLOps, современные хранилища данных и аналитика.",
-          points: ["ML Pipelines", "GenAI", "Data Fabric"],
-          metric: "На 60% быстрее инсайты благодаря DataOps.",
+            "Разрабатываем нативные и кроссплатформенные приложения для iOS и Android по полному циклу.",
+          points: ["Flutter и Swift", "Продуктовая аналитика", "Запуск в App Store / Play"],
+          metric: "Оптимизируем под 5-звёздочный рейтинг в первые 30 дней.",
         },
         {
-          code: "SEC-04",
-          title: "Кибербезопасность и GRC",
+          code: "CRM-04",
+          title: "CRM-системы",
           description:
-            "Пентесты, мониторинг угроз, архитектура Zero Trust и управление соответствием.",
-          points: ["SIEM", "Zero Trust", "Incident Response"],
-          metric: "SOC-as-a-Service с реакцией до 24 часов.",
+            "Гибкие CRM-решения для управления воронкой, клиентским сервисом и автоматизацией процессов.",
+          points: ["Sales pipeline", "Интеграции", "Отчётность и дашборды"],
+          metric: "Повышаем конверсию в клиентов до 45%.",
         },
         {
-          code: "CLD-05",
-          title: "Облачная инфраструктура",
+          code: "UX-05",
+          title: "UI & UX дизайн",
           description:
-            "Мультиоблачные стратегии, оптимизация FinOps и платформы контейнеризации.",
-          points: ["AWS", "Azure", "Kubernetes"],
-          metric: "Среднее снижение расходов на 32%.",
+            "Исследования, customer journey и пиксель-перфект интерфейсы, усиливающие ваш бренд.",
+          points: ["Product discovery", "Design system", "Интерактивные прототипы"],
+          metric: "Сокращаем цикл от исследования до релиза на 40%.",
         },
         {
-          code: "UX-06",
-          title: "Дизайн опыта",
+          code: "AI-06",
+          title: "Искусственный интеллект",
           description:
-            "UX-исследования, продуктовый дизайн и дизайн-операции для глобальных рынков.",
-          points: ["UX Research", "UI Systems", "Design Ops"],
-          metric: "Рост NPS в 2,6 раза по запущенным продуктам.",
+            "Production-ready AI решения для данных, копилотов и предиктивной аналитики.",
+          points: ["ML-инжиниринг", "Copilot-опыт", "Ответственный AI"],
+          metric: "Экономия затрат до 30% за счёт автоматизации процессов.",
+        },
+        {
+          code: "SEC-07",
+          title: "Кибербезопасность",
+          description:
+            "Современные SOC, моделирование угроз и комплаенс под ваш риск-профиль.",
+          points: ["Zero Trust", "Security-аудит", "24/7 мониторинг"],
+          metric: "Сокращаем время реакции на инциденты до 30 минут.",
+        },
+        {
+          code: "BR-08",
+          title: "Логотип и брендинг",
+          description:
+            "Бренд-стратегия, визуальная айдентика и сообщения для всех каналов.",
+          points: ["Бренд-стратегия", "Визуальная айдентика", "Контент-гайдлайны"],
+          metric: "Запускайте кампании на 50% быстрее с бренд-плейбуком.",
         },
       ],
       accents: [
@@ -1049,75 +1063,58 @@ export const translations = {
         "От стартапов до enterprise — вместе с клиентами создаем решения, меняющие индустрии.",
       projects: [
         {
-          title: "SkyLedger",
-          sector: "Fintech",
-          timeline: "12 недель",
+          title: "hamar-hadiya.uz",
+          link: "https://hamar-hadiya.uz",
+          sector: "Веб-сайт",
+          timeline: "3 недели",
           description:
-            "Финансовая платформа с аналитикой в реальном времени и AI-рекомендациями, готовая к регуляторным требованиям.",
-          image: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1600&q=80",
+            "Адаптивный каталог для выбора подарков к Умре и Хаджу с удобной корзиной заказов.",
+          image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=80",
           results: [
-            { value: "3x", label: "рост эффективности" },
-            { value: "99.98%", label: "доступность" },
-            { value: "45%", label: "ускорение вывода MVP" },
+            { value: "40+", label: "категорий подарков" },
+            { value: "99.9%", label: "время работы" },
+            { value: "SEO", label: "позиции на первой странице" },
           ],
         },
         {
-          title: "Medify",
-          sector: "Healthcare",
-          timeline: "16 недель",
+          title: "Jasur_shopuz_bot",
+          link: "https://t.me/Jasur_shopuz_bot",
+          sector: "Telegram-бот",
+          timeline: "4 недели",
           description:
-            "Телемедицинская платформа с аналитикой пути пациента и безопасным обменом данными.",
-          image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80",
+            "Мультиязычный Telegram-бот, автоматизирующий продажи, оформление заказов и нотификации доставки.",
+          image: "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1600&q=80",
           results: [
-            { value: "2.4x", label: "рост вовлеченности" },
-            { value: "34%", label: "снижение затрат на поддержку" },
+            { value: "24/7", label: "поддержка продаж" },
+            { value: "3x", label: "быстрее обработка заказов" },
           ],
         },
         {
-          title: "LogiCore",
-          sector: "Логистика",
-          timeline: "14 недель",
+          title: "admin-dashboard-orpin-two-99.vercel.app",
+          link: "https://admin-dashboard-orpin-two-99.vercel.app",
+          sector: "Система админ-панели",
+          timeline: "8 недель",
           description:
-            "Система мониторинга цепей поставок с IoT-датчиками и предиктивной аналитикой.",
-          image: "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80",
+            "Операционный центр с живыми KPI, ролевыми правами доступа и предиктивным мониторингом.",
+          image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1600&q=80",
           results: [
-            { value: "38%", label: "сокращение задержек" },
-            { value: "4x", label: "прозрачность процессов" },
+            { value: "12", label: "ключевых метрик" },
+            { value: "Role-based", label: "уровни доступа" },
+            { value: "Realtime", label: "мониторинг" },
           ],
         },
         {
-          title: "OrbitPay",
-          sector: "Ритейл",
-          timeline: "10 недель",
+          title: "dictionary-web-app-react-nine.vercel.app",
+          link: "https://dictionary-web-app-react-nine.vercel.app",
+          sector: "Сервис перевода",
+          timeline: "5 недель",
           description:
-            "Омниканальная платформа платежей с антифрод-моторами в реальном времени.",
-          image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80",
+            "Веб-приложение для расширения словарного запаса с переводами, примерами и аудио-произношением.",
+          image: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=1600&q=80",
           results: [
-            { value: "72%", label: "снижение мошенничества" },
-            { value: "18%", label: "рост конверсии" },
-            { value: "1.6с", label: "скорость транзакций" },
+            { value: "10k+", label: "словарных единиц" },
+            { value: "Audio", label: "аудио-произношение" },
           ],
-        },
-        {
-          title: "Hospital Nexus",
-          sector: "Healthcare",
-          timeline: "20 недель",
-          description:
-            "Модульная платформа управления клиникой с EHR-интеграцией и мониторингом загрузки в реальном времени.",
-          image: "https://images.unsplash.com/photo-1504439468489-c8920d796a29?auto=format&fit=crop&w=1600&q=80",
-          results: [
-            { value: "98%", label: "удовлетворенность пациентов" },
-            { value: "5x", label: "цифровые каналы приема" },
-            { value: "HIPAA", label: "уровень соответствия" },
-          ],
-          extra: {
-            heading: "Ключевые модули",
-            items: [
-              "Единое расписание отделений",
-              "AI-прогнозирование коек и персонала",
-              "Автоматизация регуляторной отчетности",
-            ],
-          },
         },
       ],
       cta: {
@@ -1181,19 +1178,19 @@ export const translations = {
         phone: "Телефон",
         email: "Email",
       },
-      office: "Узбекистан, Ташкент, Юнусабадский район, ул. Новый Узбекистан, 45",
-      phone: "+998 97 123 45 67",
-      email: "hello@finerox.com",
+      office: "Uzbekistan, Kashkadarya region, Karshi, I Karimov 239",
+      phone: "+998(88)118-05-07",
+      email: "fineroxuz@gmail.com",
       channels: [
         {
           title: "Партнерства",
           description: "Гибкие форматы сотрудничества для стартапов и крупных компаний.",
-          value: "project@finerox.com",
+          value: "fineroxuz@gmail.com",
         },
         {
           title: "Карьера",
           description: "Хотите присоединиться к команде Finerox?",
-          value: "talents@finerox.com",
+          value: "fineroxuz@gmail.com",
         },
       ],
       form: {

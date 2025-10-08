@@ -1,6 +1,7 @@
 ﻿import { useState } from "react";
 import LanguageToggle from "./LanguageToggle";
 import ThemeToggle from "./ThemeToggle";
+import fineroxPhoto from "../finerox-photo.png";
 
 const anchors = ["#home", "#about", "#services", "#portfolio", "#contact"];
 
@@ -17,11 +18,11 @@ export default function Navbar({ navItems, language, onLanguageChange, theme, on
           />
 
           <a href="#home" className="flex items-center gap-3 text-lg font-semibold tracking-wide">
-            <span className="relative inline-flex h-11 w-11 items-center justify-center overflow-hidden md:overflow-visible rounded-2xl bg-gradient-to-br from-brand-500 via-brand-600 to-brand-800 text-xl font-bold text-white shadow-glow">
-              <span className="absolute inset-0 animate-gradient-drift bg-gradient-to-br from-white/10 via-transparent to-white/30" aria-hidden />
-              <span className="relative">F</span>
-            </span>
-            <span className="hidden sm:inline">Finerox</span>
+            <img
+              src={fineroxPhoto}
+              alt="Finerox logo"
+              className="h-16 w-auto max-w-[220px] flex-shrink-0 rounded-2xl bg-transparent object-contain px-2.5 py-1.5"
+            />
           </a>
 
           <nav className="hidden items-center gap-8 md:flex">
