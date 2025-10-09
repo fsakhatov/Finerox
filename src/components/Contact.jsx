@@ -1,4 +1,4 @@
-﻿import { useState } from "react";
+import { useState } from "react";
 import Reveal from "./Reveal";
 
 export default function Contact({ copy }) {
@@ -78,45 +78,26 @@ export default function Contact({ copy }) {
               <input
                 id="name"
                 type="text"
+                inputMode="text"
                 required
+                onInput={(event) => {
+                  event.target.value = event.target.value.replace(/[^A-Za-z\u00C0-\u024F\s'-]/g, "");
+                }}
                 className="mt-2 w-full rounded-2xl border border-zinc-200 bg-white px-4 py-3 text-sm text-zinc-900 outline-none transition focus:border-brand-500 focus:ring-2 focus:ring-brand-500/40 dark:border-white/10 dark:bg-black/40 dark:text-white"
               />
             </div>
-            <div className="grid gap-5 sm:grid-cols-2">
-              <div>
-                <label className="text-xs uppercase tracking-[0.4em] text-zinc-400 dark:text-white/50" htmlFor="company">
-                  {copy.form.company}
-                </label>
-                <input
-                  id="company"
-                  type="text"
-                  className="mt-2 w-full rounded-2xl border border-zinc-200 bg-white px-4 py-3 text-sm text-zinc-900 outline-none transition focus:border-brand-500 focus:ring-2 focus:ring-brand-500/40 dark:border-white/10 dark:bg-black/40 dark:text-white"
-                />
-              </div>
-              <div>
-                <label className="text-xs uppercase tracking-[0.4em] text-zinc-400 dark:text-white/50" htmlFor="budget">
-                  {copy.form.budget}
-                </label>
-                <select
-                  id="budget"
-                  className="mt-2 w-full rounded-2xl border border-zinc-200 bg-white px-4 py-3 text-sm text-zinc-900 outline-none transition focus:border-brand-500 focus:ring-2 focus:ring-brand-500/40 dark:border-white/10 dark:bg-black/40 dark:text-white"
-                >
-                  {copy.form.budgetRanges.map((range) => (
-                    <option key={range} className="bg-white text-zinc-900 dark:bg-[#01030a] dark:text-white">
-                      {range}
-                    </option>
-                  ))}
-                </select>
-              </div>
-            </div>
             <div>
-              <label className="text-xs uppercase tracking-[0.4em] text-zinc-400 dark:text-white/50" htmlFor="email">
-                {copy.form.email}
+              <label className="text-xs uppercase tracking-[0.4em] text-zinc-400 dark:text-white/50" htmlFor="phone">
+                {copy.form.phone}
               </label>
               <input
-                id="email"
-                type="email"
+                id="phone"
+                type="tel"
+                inputMode="numeric"
                 required
+                onInput={(event) => {
+                  event.target.value = event.target.value.replace(/[^0-9+\-\s\(\)]/g, "");
+                }}
                 className="mt-2 w-full rounded-2xl border border-zinc-200 bg-white px-4 py-3 text-sm text-zinc-900 outline-none transition focus:border-brand-500 focus:ring-2 focus:ring-brand-500/40 dark:border-white/10 dark:bg-black/40 dark:text-white"
               />
             </div>

@@ -1,7 +1,7 @@
 ﻿import { useState } from "react";
 import LanguageToggle from "./LanguageToggle";
 import ThemeToggle from "./ThemeToggle";
-import fineroxPhoto from "../finerox-photo.png";
+import fineroxPhoto from "../assets/finerox-photo.png";
 
 const anchors = ["#home", "#about", "#services", "#portfolio", "#contact"];
 

@@ -1,5 +1,5 @@
 import Reveal from "./Reveal";
-import fineroxPhoto from "../finerox-photo.png";
+import fineroxPhoto from "../assets/finerox-photo.png";
 
 export default function Footer({ copy }) {
   return (
