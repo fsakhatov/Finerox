@@ -1,4 +1,4 @@
-﻿import { useState } from "react";
+import { useState } from "react";
 import LanguageToggle from "./LanguageToggle";
 import ThemeToggle from "./ThemeToggle";
 import fineroxPhoto from "../assets/finerox-photo.png";

@@ -12,7 +12,6 @@ export default function LanguageToggle({ current, onChange }) {
         setOpen(false);
       }
     };
-
     document.addEventListener("mousedown", handleClickAway);
     return () => document.removeEventListener("mousedown", handleClickAway);
   }, []);
@@ -21,7 +20,7 @@ export default function LanguageToggle({ current, onChange }) {
   const options = Object.values(languages);
 
   return (
-    <div ref={popoverRef} className="relative">
+    <div ref={popoverRef} className="relative z-50">
       <button
         type="button"
         onClick={() => setOpen((prev) => !prev)}
