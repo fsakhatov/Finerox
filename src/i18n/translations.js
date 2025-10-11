@@ -396,8 +396,8 @@ export const translations = {
         },
       ],
       form: {
-        name: "Ismingiz",
-        phone: "Telefon raqamingiz",
+        name: "Ismi",
+        phone: "Telefon raqami",
         message: "Loyiha tafsilotlari",
         submit: "Xabar yuborish",
         success: "Rahmat! Tez orada jamoamiz aloqaga chiqadi.",
@@ -806,7 +806,7 @@ export const translations = {
         },
       ],
       form: {
-        name: "Your name",
+        name: "Nname",
         phone: "Phone number",
         message: "Project details",
         submit: "Send message",
@@ -1216,7 +1216,7 @@ export const translations = {
         },
       ],
       form: {
-        name: "Ваше имя",
+        name: "Имя",
         phone: "Номер телефона",
         message: "Детали проекта",
         submit: "Отправить",
