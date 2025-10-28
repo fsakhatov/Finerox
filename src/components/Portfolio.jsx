@@ -1,3 +1,4 @@
+import globusMarketImage from "../assets/globus_market.svg";
 import hamarHadiyaImage from "../assets/hamar_hadiya.jpg";
 import jasurShopImage from "../assets/jasur_shop.jpg";
 import Reveal from "./Reveal";
@@ -15,18 +16,25 @@ export default function Portfolio({ copy = {} }) {
       if (imagePath.includes("jasur_shop")) {
         return jasurShopImage;
       }
+      if (imagePath.includes("globus_market")) {
+        return globusMarketImage;
+      }
     }
     return imagePath;
   };
   const getImageClasses = (imagePath, baseHeightClass) => {
     const isHamar = typeof imagePath === "string" && imagePath.includes("hamar_hadiya");
     const isJasur = typeof imagePath === "string" && imagePath.includes("jasur_shop");
+    const isGlobus = typeof imagePath === "string" && imagePath.includes("globus_market");
     const isDictionary = typeof imagePath === "string" && imagePath.includes("photo-1517430816045");
     if (isHamar) {
       return "w-full max-h-[300px] object-contain bg-white/95 p-2 md:p-3 dark:bg-white/10";
     }
     if (isJasur) {
       return `${baseHeightClass} w-full object-contain bg-white/90 p-4 dark:bg-white/10`;
+    }
+    if (isGlobus) {
+      return `${baseHeightClass} w-full object-contain bg-white p-8 md:p-10 dark:bg-white/10`;
     }
     if (isDictionary) {
       return `${baseHeightClass} w-full object-cover`;

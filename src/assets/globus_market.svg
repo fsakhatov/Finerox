@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#ffffff" />
+  <g stroke="#0b5e3b" stroke-width="14" fill="none" transform="translate(0 -24)">
+    <circle cx="256" cy="204" r="150" />
+    <ellipse cx="256" cy="204" rx="80" ry="150" />
+    <line x1="106" y1="204" x2="406" y2="204" />
+    <line x1="256" y1="54" x2="256" y2="354" />
+    <path d="M137 124c35 20 77 32 119 32s84-12 119-32" />
+    <path d="M137 284c35-20 77-32 119-32s84 12 119 32" />
+  </g>
+  <text x="256" y="255" font-size="170" font-weight="700" text-anchor="middle" fill="#0b5e3b" font-family="Georgia, 'Times New Roman', serif">G</text>
+  <text x="256" y="360" font-size="60" font-weight="600" text-anchor="middle" fill="#0b5e3b" font-family="'Open Sans', 'Segoe UI', sans-serif" letter-spacing="8">GLOBUS</text>
+  <text x="256" y="420" font-size="58" font-weight="600" text-anchor="middle" fill="#0b5e3b" font-family="'Open Sans', 'Segoe UI', sans-serif" letter-spacing="12">MARKET</text>
+</svg>
