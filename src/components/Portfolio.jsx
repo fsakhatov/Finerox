@@ -26,7 +26,7 @@ export default function Portfolio({ copy = {} }) {
     const isHamar = typeof imagePath === "string" && imagePath.includes("hamar_hadiya");
     const isJasur = typeof imagePath === "string" && imagePath.includes("jasur_shop");
     const isGlobus = typeof imagePath === "string" && imagePath.includes("globus_market");
-    const isDictionary = typeof imagePath === "string" && imagePath.includes("photo-1517430816045");
+    const isDoctorOlim = typeof imagePath === "string" && imagePath.includes("doctorolim");
     if (isHamar) {
       return "w-full max-h-[300px] object-contain bg-white/95 p-2 md:p-3 dark:bg-white/10";
     }
@@ -34,10 +34,10 @@ export default function Portfolio({ copy = {} }) {
       return `${baseHeightClass} w-full object-contain bg-white/90 p-4 dark:bg-white/10`;
     }
     if (isGlobus) {
-      return `${baseHeightClass} w-full object-contain bg-white p-8 md:p-10 dark:bg-white/10`;
+      return `${baseHeightClass} w-full object-contain bg-white p-4 md:p-6 dark:bg-white/10`;
     }
-    if (isDictionary) {
-      return `${baseHeightClass} w-full object-cover`;
+    if (isDoctorOlim) {
+      return `${baseHeightClass} w-full object-contain bg-white/95 p-6 dark:bg-white/10`;
     }
     return `${baseHeightClass} w-full object-cover`;
   };
@@ -195,7 +195,7 @@ export default function Portfolio({ copy = {} }) {
               delay={160 + index * 80}
               className="group overflow-hidden rounded-[36px] border border-zinc-200 bg-white shadow-sm shadow-zinc-200/60 transition lg:col-span-3 dark:border-white/10 dark:bg-white/[0.06]"
             >
-              <div className="grid gap-0 md:grid-cols-[1.2fr_0.8fr] md:items-center">
+              <div className="flex flex-col">
                 <img
                   src={resolveImage(project.image)}
                   alt={project.title}
